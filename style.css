@@ -9,10 +9,11 @@ body {
     width: 100%;
   }
   h1 {
-    color: black;
-    font-size: 4rem;
+      margin-top: 6rem;
+    color: blue;
+    font-size: 2rem;
     font-weight: 300;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     line-height: 1rem;
     text-align: center;
   } 
@@ -33,6 +34,7 @@ body {
   }
   
   .preview {
+      color: darkgray;
     display: inline;
     align: center;
     background: white;
@@ -71,7 +73,14 @@ body {
   }
   
   .formHolder {
-    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(85, 85, 165);
+
+    background-color: lightskyblue;
+    border: blue 1px solid;
     opacity: .8;
     width: 80%;
     border-radius: 4px;
@@ -90,6 +99,7 @@ body {
   }
   
   .third {
+    padding: 20px;
     height: 100%;
     float: right;
     text-align: center;
@@ -98,10 +108,17 @@ body {
   input {
     display: inline;
   }
+  #size{
+      width: 6rem;
+  }
+  #font{
+    width: 6rem;
+}
   
   #fonts {
     margin-left: 4px;
   }
   
   #weight {
+      width: 6rem;
   }
