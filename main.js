@@ -20,3 +20,4 @@ $('#size').on('keyup', (event) => {
     })
 })
 })
+console.log(fontFamily)
