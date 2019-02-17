@@ -99,6 +99,7 @@ body {
   }
   
   .third {
+    line-height: 25px;
     padding: 20px;
     height: 100%;
     float: right;
@@ -122,3 +123,78 @@ body {
   #weight {
       width: 6rem;
   }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 815px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      p{
+          font-size: 35px;
+      }
+      h1{
+          font-size: 60px;
+          margin-bottom: 110px;
+          margin-top: 150px;
+      }
+      .preview{
+          font-size: 35px;
+          width: 80%;
+          min-height: 500px;
+      }
+      #text{
+          font-size: 35px;
+          line-height: 40px;
+          width: 80%;
+          min-height: 500px;
+      }
+      .formHolder{
+          height: 100px;
+      }
+      #font {
+        margin-top: 30px;
+        padding-top: 20px;
+        width: 160px;
+        font-size: 30px;
+        border: black;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    #weight{
+        margin-top: 30px;
+        padding-top: 20px;
+        width: 160px;
+        font-size: 30px;
+        border: black;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    #size{
+        margin-top: 30px;
+        padding-top: 20px;
+        width: 160px;
+        font-size: 30px;
+        border: black;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .third{
+        font-size: 28px;
+    }
+    .container{
+        width:90%;
+        flex-direction: column
+    }
+    .formHolder{
+        width: 73%;
+        height: 150px;
+    }
+    input{
+        text-align: center;
+        }
+    }
+}
