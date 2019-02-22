@@ -9,10 +9,11 @@ body {
     width: 100%;
   }
   h1 {
-      margin-top: 6rem;
+    margin-top: 11rem;
     color: blue;
+    font-family: monospace;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 5px;
     line-height: 1rem;
     text-align: center;
